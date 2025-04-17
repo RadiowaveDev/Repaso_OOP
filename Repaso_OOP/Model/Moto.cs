@@ -6,21 +6,18 @@ using System.Threading.Tasks;
 
 namespace Repaso_OOP.Model
 {
-    public class Carro: Vehiculo
+    public class Moto : Vehiculo
     {
-        public string modelo = "Aventador";
+        public string asientoDoble;
 
-        // Polimorfismo
         public override void encender()
         {
-            Console.WriteLine("Encender desde carro");
+            Console.WriteLine("Encender desde moto");
         }
 
         public override void apagar()
         {
-            Console.WriteLine("Apagar desde carro");
+            Console.WriteLine("Apagar desde moto");
         }
     }
-
-    
 }

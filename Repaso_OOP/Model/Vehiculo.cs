@@ -8,17 +8,22 @@ namespace Repaso_OOP.Model
 {
     public class Vehiculo
     {
-        public string _marca="Lamborghini";
-        
+        public string marca = "Lamborghini";
 
+        // Metodo de la clase vehiculo
         public void tocarClaxon()
         {
-            Console.WriteLine("tuuuu, tuuuuu,tuuuuu");
+            Console.WriteLine("Tuu, tuu, tuuu");
         }
 
-        public Vehiculo()
+        public virtual void encender()
         {
+            Console.WriteLine("Encender");
+        }
 
+        public virtual void apagar()
+        {
+            Console.WriteLine("Encender");
         }
     }
 }

@@ -15,7 +15,7 @@ namespace Repaso_OOP
             Console.WriteLine();
 
             var car = new Carro();
-            Console.WriteLine(car._marca);
+            Console.WriteLine(car.modelo);
             car.tocarClaxon();
             Console.WriteLine();
 
